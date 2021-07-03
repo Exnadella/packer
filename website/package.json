@@ -19,7 +19,7 @@
     "@hashicorp/react-product-features-list": "^4.0.1",
     "@hashicorp/react-search": "5.0.1",
     "@hashicorp/react-section-header": "5.0.2",
-    "@hashicorp/react-subnav": "8.1.0",
+    "@hashicorp/react-subnav": "8.2.2",
     "@hashicorp/react-text-split-with-image": "^4.1.1",
     "@hashicorp/react-vertical-text-block-list": "6.0.2",
     "adm-zip": "^0.5.5",

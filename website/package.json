@@ -24,8 +24,8 @@
     "@hashicorp/react-vertical-text-block-list": "6.0.2",
     "adm-zip": "^0.5.5",
     "gray-matter": "^4.0.2",
-    "next": "10.1.3",
-    "next-mdx-remote": "3.0.1",
+    "next": "12.1.0",
+    "next-mdx-remote": "4.0.0",
     "next-remote-watch": "1.0.0",
     "react": "16.13.1",
     "react-dom": "16.13.1"

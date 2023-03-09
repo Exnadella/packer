@@ -1,7 +1,7 @@
 module github.com/hashicorp/packer
 
 require (
-	cloud.google.com/go v0.97.0 // indirect
+	cloud.google.com/go v0.105.0 // indirect
 	github.com/biogo/hts v1.4.3
 	github.com/cheggaaa/pb v1.0.27
 	github.com/chzyer/readline v0.0.0-20180603132655-2972be24d48e
@@ -11,20 +11,20 @@ require (
 	github.com/gobwas/glob v0.2.3
 	github.com/gofrs/flock v0.8.1 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
-	github.com/google/go-cmp v0.5.6
+	github.com/google/go-cmp v0.5.9
 	github.com/google/go-github/v33 v33.0.1-0.20210113204525-9318e629ec69
 	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/hako/durafmt v0.0.0-20200710122514-c0fb7b4da026
 	github.com/hashicorp/go-checkpoint v0.0.0-20171009173528-1545e56e46de
 	github.com/hashicorp/go-cty-funcs v0.0.0-20200930094925-2721b1e36840
-	github.com/hashicorp/go-getter/v2 v2.0.2
+	github.com/hashicorp/go-getter/v2 v2.2.0
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/hashicorp/go-uuid v1.0.2
-	github.com/hashicorp/go-version v1.4.0
-	github.com/hashicorp/hcl/v2 v2.12.0
+	github.com/hashicorp/go-version v1.6.0
+	github.com/hashicorp/hcl/v2 v2.13.0
 	github.com/hashicorp/hcp-sdk-go v0.19.0
 	github.com/hashicorp/packer-plugin-amazon v1.1.0
-	github.com/hashicorp/packer-plugin-sdk v0.2.13
+	github.com/hashicorp/packer-plugin-sdk v0.4.0
 	github.com/jehiah/go-strftime v0.0.0-20171201141054-1d33003b3869
 	github.com/klauspost/compress v1.13.5 // indirect
 	github.com/klauspost/pgzip v1.2.5
@@ -46,17 +46,17 @@ require (
 	github.com/ulikunitz/xz v0.5.10
 	github.com/zclconf/go-cty v1.10.0
 	github.com/zclconf/go-cty-yaml v1.0.1
-	golang.org/x/crypto v0.0.0-20220427172511-eb4f295cb31f // indirect
-	golang.org/x/mod v0.6.0-dev.0.20220106191415-9b9b3d81d5e3
-	golang.org/x/net v0.0.0-20211216030914-fe4d6282115f
-	golang.org/x/oauth2 v0.0.0-20211005180243-6b3c2da341f1
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20220128215802-99c3d69c2c27 // indirect
-	golang.org/x/term v0.0.0-20210615171337-6886f2dfbf5b // indirect
-	golang.org/x/text v0.3.7 // indirect
-	golang.org/x/tools v0.1.10
-	google.golang.org/api v0.58.0 // indirect
-	google.golang.org/grpc v1.41.0
+	golang.org/x/crypto v0.0.0-20220517005047-85d78b3ac167 // indirect
+	golang.org/x/mod v0.8.0
+	golang.org/x/net v0.8.0
+	golang.org/x/oauth2 v0.1.0
+	golang.org/x/sync v0.1.0
+	golang.org/x/sys v0.6.0 // indirect
+	golang.org/x/term v0.6.0 // indirect
+	golang.org/x/text v0.8.0 // indirect
+	golang.org/x/tools v0.6.0
+	google.golang.org/api v0.101.0 // indirect
+	google.golang.org/grpc v1.50.1
 )
 
 require (
@@ -101,7 +101,10 @@ require (
 )
 
 require (
-	cloud.google.com/go/storage v1.18.2 // indirect
+	cloud.google.com/go/compute v1.12.1 // indirect
+	cloud.google.com/go/compute/metadata v0.1.1 // indirect
+	cloud.google.com/go/iam v0.6.0 // indirect
+	cloud.google.com/go/storage v1.27.0 // indirect
 	github.com/1and1/oneandone-cloudserver-sdk-go v1.0.1 // indirect
 	github.com/Azure/azure-sdk-for-go v55.7.0+incompatible // indirect
 	github.com/Azure/go-autorest v14.2.0+incompatible // indirect
@@ -136,7 +139,7 @@ require (
 	github.com/armon/go-metrics v0.3.9 // indirect
 	github.com/armon/go-radix v1.0.0 // indirect
 	github.com/asaskevich/govalidator v0.0.0-20200907205600-7a23bdc65eef // indirect
-	github.com/aws/aws-sdk-go v1.42.29 // indirect
+	github.com/aws/aws-sdk-go v1.44.114 // indirect
 	github.com/bgentry/go-netrc v0.0.0-20140422174119-9fd32a8b3d3d // indirect
 	github.com/bgentry/speakeasy v0.1.0 // indirect
 	github.com/bmatcuk/doublestar v1.1.5 // indirect
@@ -175,7 +178,8 @@ require (
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510 // indirect
 	github.com/google/uuid v1.3.0 // indirect
-	github.com/googleapis/gax-go/v2 v2.1.1 // indirect
+	github.com/googleapis/enterprise-certificate-proxy v0.2.0 // indirect
+	github.com/googleapis/gax-go/v2 v2.6.0 // indirect
 	github.com/gophercloud/gophercloud v0.12.0 // indirect
 	github.com/gophercloud/utils v0.0.0-20200508015959-b0167b94122c // indirect
 	github.com/grpc-ecosystem/go-grpc-middleware v1.2.2 // indirect
@@ -184,8 +188,8 @@ require (
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-azure-helpers v0.16.5 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
-	github.com/hashicorp/go-getter/gcs/v2 v2.0.0-20200604122502-a6995fa1edad // indirect
-	github.com/hashicorp/go-getter/s3/v2 v2.0.0-20200604122502-a6995fa1edad // indirect
+	github.com/hashicorp/go-getter/gcs/v2 v2.2.0 // indirect
+	github.com/hashicorp/go-getter/s3/v2 v2.2.0 // indirect
 	github.com/hashicorp/go-hclog v0.16.2 // indirect
 	github.com/hashicorp/go-immutable-radix v1.3.1 // indirect
 	github.com/hashicorp/go-oracle-terraform v0.17.0 // indirect
@@ -254,10 +258,11 @@ require (
 	go.opencensus.io v0.23.0 // indirect
 	golang.org/x/mobile v0.0.0-20210901025245-1fde1d6c3ca1 // indirect
 	golang.org/x/time v0.0.0-20210723032227-1f47c861a9ac // indirect
-	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
+	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
-	google.golang.org/genproto v0.0.0-20211021150943-2b146023228c // indirect
-	google.golang.org/protobuf v1.27.1 // indirect
+	google.golang.org/genproto v0.0.0-20221027153422-115e99e71e1c // indirect
+	google.golang.org/protobuf v1.28.1 // indirect
+	gopkg.in/cheggaaa/pb.v1 v1.0.28 // indirect
 	gopkg.in/ini.v1 v1.62.0 // indirect
 	gopkg.in/square/go-jose.v2 v2.6.0 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect

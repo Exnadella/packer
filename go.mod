@@ -23,7 +23,7 @@ require (
 	github.com/hashicorp/go-version v1.8.0
 	github.com/hashicorp/hcl/v2 v2.24.0
 	github.com/hashicorp/hcp-sdk-go v0.172.0
-	github.com/hashicorp/packer-plugin-sdk v0.6.7
+	github.com/hashicorp/packer-plugin-sdk v0.6.10
 	github.com/jehiah/go-strftime v0.0.0-20171201141054-1d33003b3869
 	github.com/klauspost/compress v1.18.5
 	github.com/klauspost/pgzip v1.2.6
@@ -43,15 +43,15 @@ require (
 	github.com/ulikunitz/xz v0.5.15
 	github.com/zclconf/go-cty v1.16.3
 	github.com/zclconf/go-cty-yaml v1.0.1
-	golang.org/x/crypto v0.50.0 // indirect
-	golang.org/x/mod v0.34.0
-	golang.org/x/net v0.53.0
+	golang.org/x/crypto v0.53.0 // indirect
+	golang.org/x/mod v0.36.0
+	golang.org/x/net v0.56.0
 	golang.org/x/oauth2 v0.36.0
-	golang.org/x/sync v0.20.0
-	golang.org/x/sys v0.43.0 // indirect
-	golang.org/x/term v0.42.0 // indirect
-	golang.org/x/text v0.36.0
-	golang.org/x/tools v0.43.0
+	golang.org/x/sync v0.21.0
+	golang.org/x/sys v0.46.0 // indirect
+	golang.org/x/term v0.44.0 // indirect
+	golang.org/x/text v0.38.0
+	golang.org/x/tools v0.45.0
 )
 
 require (
@@ -397,6 +397,6 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-go 1.25.9
+go 1.25.11
 
 replace github.com/zclconf/go-cty => github.com/nywilken/go-cty v1.13.3 // added by packer-sdc fix as noted in github.com/hashicorp/packer-plugin-sdk/issues/187
